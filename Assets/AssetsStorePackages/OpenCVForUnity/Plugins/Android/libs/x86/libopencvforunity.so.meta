@@ -2,7 +2,7 @@ fileFormatVersion: 2
 guid: 44a8988c2ba4a454090650df5a714051
 PluginImporter:
   externalObjects: {}
-  serializedVersion: 3
+  serializedVersion: 2
   iconMap: {}
   executionOrder: {}
   defineConstraints: []
@@ -11,14 +11,20 @@ PluginImporter:
   isExplicitlyReferenced: 0
   validateReferences: 1
   platformData:
-    Android:
+  - first:
+      Android: Android
+    second:
       enabled: 1
       settings:
         CPU: x86
-    Any:
+  - first:
+      Any: 
+    second:
       enabled: 0
       settings: {}
-    Editor:
+  - first:
+      Editor: Editor
+    second:
       enabled: 0
       settings:
         DefaultValueInitialized: true
